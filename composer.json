@@ -1,0 +1,22 @@
+{
+    "name": "user/iptocity",
+    "description": "id addres to city name",
+    "autoload": {
+        "classmap": "src"
+    },
+    "autoload": {
+        "psr-4": {
+            "User\\Iptocity\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rustem Garaev",
+            "email": "031588@mail.ru"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.59",
+        "geoip2/geoip2": "^2.12"
+    }
+}
