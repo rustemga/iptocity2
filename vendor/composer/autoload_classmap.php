@@ -8,6 +8,9 @@ $baseDir = dirname($vendorDir);
 return array(
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'IP2Location\\Database' => $vendorDir . '/ip2location/ip2location-php/IP2Location.php',
+    'IP2Location\\IpTools' => $vendorDir . '/ip2location/ip2location-php/IP2Location.php',
+    'IP2Location\\WebService' => $vendorDir . '/ip2location/ip2location-php/IP2Location.php',
     'PhpToken' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
     'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
     'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',

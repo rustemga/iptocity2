@@ -6,5 +6,4 @@ class Ip_db_connection
     public string $dbusername="";
     public string $dbpassword="";
     public string $tablename = "";
-    //public int $motherfucker;
 }

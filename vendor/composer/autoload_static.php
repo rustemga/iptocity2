@@ -92,6 +92,9 @@ class ComposerStaticInitfba5670dd1c7ea065d79bd4a7dd22982
     public static $classMap = array (
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'IP2Location\\Database' => __DIR__ . '/..' . '/ip2location/ip2location-php/IP2Location.php',
+        'IP2Location\\IpTools' => __DIR__ . '/..' . '/ip2location/ip2location-php/IP2Location.php',
+        'IP2Location\\WebService' => __DIR__ . '/..' . '/ip2location/ip2location-php/IP2Location.php',
         'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',

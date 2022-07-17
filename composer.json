@@ -17,6 +17,11 @@
     ],
     "require": {
         "nesbot/carbon": "^2.59",
-        "geoip2/geoip2": "^2.12"
+        "geoip2/geoip2": "^2.12",
+        "ip2location/ip2location-php": "^8.3"
+    },
+    "config": {
+        "disable-tls": true,
+        "secure-http": false
     }
 }

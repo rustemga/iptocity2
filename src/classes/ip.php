@@ -4,7 +4,7 @@ class Ip
 {
     public string $ip;
 
-    public function set_ip($ip)
+    public function __construct($ip)
     {
         if (filter_var($ip, FILTER_VALIDATE_IP)) :
             $this->ip = $ip;
